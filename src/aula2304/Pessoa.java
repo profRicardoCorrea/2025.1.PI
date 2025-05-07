@@ -1,13 +1,12 @@
-package aula1604;
+package aula2304;
 
- class Pessoa {
-	public String nomeCompleto;
-	public String cpf;
-	public int idade;
-	public  boolean situacao;
+public class Pessoa {
+	private String nomeCompleto;
+	private String cpf;
+	protected int idade;
 	
 	public String getNomeCompleto() {
-		return nomeCompleto;
+		return this.nomeCompleto;
 	}
 	public void setNomeCompleto(String nomeCompleto) {
 		this.nomeCompleto = nomeCompleto;
